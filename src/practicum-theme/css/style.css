@@ -1,0 +1,16 @@
+{% include './components/_header.css' %}
+{% include './components/_footer.css' %} 
+
+.body-wrapper{
+    display:flex;
+    flex-direction: column;
+}
+.body-container-wrapper{
+    margin-top:270px;
+    max-width:1200px;
+    margin: 270px auto 0;
+}
+
+body {
+    {{ theme.fonts.main.style}};
+}

@@ -1,0 +1,9 @@
+{
+    "label": "Tabor's Practicum Theme",
+    "preview_path": "./templates/home.html",
+    "enable_domain_stylesheets": false,
+    "author":{
+        "name": "Michelle Tabor",
+        "email": "michelle@bridgesstrategies.com"
+    }
+}

@@ -1,0 +1,15 @@
+<div class="team-cards">
+  <h2>{% inline_text field="team_header" value="{{ module.team_header }}" %} </h2>
+ <div class="card-container">
+   {% for cat in module.ca %}
+  <div class="card">
+    <img src="{{cat.image.src}}" class="cat-image">
+    <p class="cat-name">
+      {{cat.Name}}
+    </p>
+    <p class="cat-title">
+      {{cat.title}}
+    </p>
+  </div>
+  {% endfor %}
+</div>

@@ -1,0 +1,115 @@
+[ {
+  "id" : "f929fb66-ab8b-0bc3-7008-d70712307daf",
+  "name" : "team_header",
+  "display_width" : null,
+  "label" : "Team Header",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Our Team"
+}, {
+  "id" : "9c6065fe-9eee-3554-7548-7a58ce3096c6",
+  "name" : "ca",
+  "display_width" : null,
+  "label" : "Cat Card",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : 1,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : 3
+  },
+  "children" : [ {
+    "id" : "124fe835-ddb8-3fd8-781f-7012af33828a",
+    "name" : "image",
+    "display_width" : null,
+    "label" : "Image",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent30.net/hubfs/20221483/cat-1046544_640.jpg",
+      "alt" : "cat-1046544_640",
+      "loading" : "lazy",
+      "width" : 640,
+      "height" : 475,
+      "max_width" : 640,
+      "max_height" : 475
+    }
+  }, {
+    "id" : "02067ca9-7ad2-93dd-6973-1dff9996847e",
+    "name" : "Name",
+    "display_width" : null,
+    "label" : "Text",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Kitty's Name"
+  }, {
+    "id" : "c3ba8e8a-31f8-27e3-4897-77bd6cb2a2d1",
+    "name" : "title",
+    "display_width" : null,
+    "label" : "Title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Kitty's Job title"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : [ {
+    "image" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent30.net/hubfs/20221483/cat-1046544_640.jpg",
+      "alt" : "cat-1046544_640",
+      "loading" : "lazy",
+      "width" : 640,
+      "height" : 475,
+      "max_width" : 640,
+      "max_height" : 475
+    },
+    "Name" : "Kitty's Name",
+    "title" : "Kitty's Job title"
+  }, {
+    "image" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent30.net/hubfs/20221483/cat-1046544_640.jpg",
+      "alt" : "cat-1046544_640",
+      "loading" : "lazy",
+      "width" : 640,
+      "height" : 475,
+      "max_width" : 640,
+      "max_height" : 475
+    },
+    "Name" : "Kitty's Name",
+    "title" : "Kitty's Job title"
+  }, {
+    "image" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent30.net/hubfs/20221483/cat-1046544_640.jpg",
+      "alt" : "cat-1046544_640",
+      "loading" : "lazy",
+      "width" : 640,
+      "height" : 475,
+      "max_width" : 640,
+      "max_height" : 475
+    },
+    "Name" : "Kitty's Name",
+    "title" : "Kitty's Job title"
+  } ]
+} ]

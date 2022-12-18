@@ -1,0 +1,21 @@
+.footer{
+    background-color: {{ theme.colors.accent.color }};
+    border-top: 2px solid grey;
+    width: 100vw;
+    min-height: 50px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+.footer-nav ul{
+    display: flex;
+    padding-inline-start: 0px;
+}
+.footer-nav ul li{
+    margin: 10px;
+    list-style: none;
+}
+.footer-nav ul li a{
+    color: #000000;
+    text-decoration: none;
+}

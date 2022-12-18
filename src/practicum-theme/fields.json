@@ -1,0 +1,50 @@
+[
+    {
+        "label": "Colors",
+        "name": "colors",
+        "type":"group",
+        "children": [
+            {
+                "label": "Accent Color",
+                "name":"accent",
+                "type": "color",
+                "visibility": {
+                    "hidden_subfields":{
+                        "opacity": true
+                    }
+                },
+                "default":{
+                    "color": "#ffffff"
+                }
+            }
+        ]
+    },
+    {
+        "label": "Fonts",
+        "name": "fonts",
+        "type": "group",
+        "children": [
+            {
+                "label": "Main",
+                "name": "main",
+                "type": "font",
+                "visibility": {
+                  "hidden_subfields": {
+                    "bold": true,
+                    "italic": true,
+                    "size": true,
+                    "underline": true
+                  }
+                },
+                "load_external_fonts": false,
+                "default": {
+                  "color": "#000000",
+                  "fallback": "sans-serif",
+                  "font": "Work Sans",
+                  "font_set": "GOOGLE",
+                  "variant": "regular"
+                }
+              }
+        ]
+    }
+]

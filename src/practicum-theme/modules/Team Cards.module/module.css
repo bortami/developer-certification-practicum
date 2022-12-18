@@ -1,0 +1,31 @@
+.team-cards{
+  max-width:1200px;
+  margin:0 auto;
+  margin-top:25px;
+  margin-bottom: 50px;
+}
+.card-container{
+  display:flex;
+  flex-flow: row wrap;
+}
+.card{
+  display:flex;
+  flex-direction: column;
+  max-width:33%;
+  margin-bottom: 5px;
+}
+.cat-image{
+  object-fit: cover;
+  height: 300px;
+}
+.cat-name{
+  font-size:18px;
+}
+.cat-title{
+  font-size:14px;
+}
+@media (max-width: 900px){
+  .card{
+    max-width:45%;
+  }
+}
